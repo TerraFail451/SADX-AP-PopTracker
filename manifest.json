@@ -13,5 +13,6 @@
             ]
         }
     },
-    "min_poptracker_version": "0.25.1"
+    "min_poptracker_version": "0.25.1",
+    "versions_url": "https://raw.githubusercontent.com/terra-fail/SADX-AP-PopTracker/versions/versions.json"
 }
