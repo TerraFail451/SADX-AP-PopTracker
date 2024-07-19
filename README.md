@@ -1,4 +1,4 @@
-# PopTracker pack for Sonic Adventure SX Archipelago Randomizer
+# PopTracker pack for the Sonic Adventure DX Archipelago Randomizer
 
 A PopTracker pack with autotracking for the Sonic Adventure DX Archipelago Randomizer
 
