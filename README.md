@@ -13,7 +13,3 @@ A PopTracker pack with autotracking for the Sonic Adventure DX Archipelago Rando
 ## Usage
 
 The tracker will show you which hub worlds, stages, upgrades, and emblems you can access with your current items
-
-## Notes
-
-If not using auto-tracking, the `Show All Stages` toggle must be turned on to see stages
