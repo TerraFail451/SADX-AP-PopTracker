@@ -1,0 +1,117 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "2,2",
+                "rows": [
+                    [
+                        "playable_sonic",
+                        "sonic_light_shoes",
+                        "sonic_ancient_light",
+                        "sonic_bounce_bracelet",
+                        "sonic_flame_ring",
+                        "sonic_mystic_melody",
+                        "playable_tails",
+                        "tails_booster",
+                        "tails_mystic_melody",
+                        "tails_bazooka",
+                        ""
+                    ],
+                    [
+                        "playable_knuckles",
+                        "knuckles_shovel_claws",
+                        "knuckles_air_necklace",
+                        "knuckles_hammer_gloves",
+                        "knuckles_sunglasses",
+                        "playable_amy",
+                        "shadow_air_shoes",
+                        "shadow_ancient_light",
+                        "shadow_mystic_melody",
+                        "emblems",
+                        ""
+                    ],
+                    [
+                        "playable_gamma",
+                        "eggman_mystic_melody",
+                        "eggman_jet_engine",
+                        "eggman_large_cannon",
+                        "eggman_protective_armor",
+                        "playable_big",
+                        "rouge_pick_nails",
+                        "rouge_treasure_scope",
+                        "rouge_iron_boots",
+                        "black_market_tokens",
+                        ""
+                    ],
+                    [
+                        "white_chaos_emerald",
+                        "red_chaos_emerald",
+                        "cyan_chaos_emerald",
+                        "purple_chaos_emerald",
+                        "green_chaos_emerald",
+                        "yellow_chaos_emerald",
+                        "blue_chaos_emerald",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+
+    "tracker_settings": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "2,2",
+                "rows": [
+                    [
+                        "keysanity",
+                        "beetlesanity",
+                        "pipesanity",
+                        "hiddensanity",
+                        "omosanity",
+                        "animalsanity",
+                        "kartsanity",
+                    ],
+                    [
+                        "chao_race_difficulty",
+                        "chao_stats",
+                        "chao_body_parts",
+                        "chao_kindergarten",
+                        "black_market_slots",
+                        "",
+                        ""
+                    ],
+                    [
+                        "chao_karate_difficulty",
+                        "chao_stats_stamina",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "chao_prize_only",
+                        "chao_stats_hidden",
+                        "",
+                        "gate_count",
+                        "cannons_core_cost",
+                        "goal",
+                        "show_missions"
+                    ]
+                ]
+            }
+        ]
+    }
+}
