@@ -1,7 +1,8 @@
 {
-    "tracker_items": {
+    "characters": {
         "type": "array",
         "orientation": "horizontal",
+		"item_size": 64,
         "content": [
             {
                 "type": "itemgrid",
@@ -9,65 +10,61 @@
                 "item_margin": "2,2",
                 "rows": [
                     [
-                        "playable_sonic",
-                        "sonic_light_shoes",
-                        "sonic_ancient_light",
-                        "sonic_bounce_bracelet",
-                        "sonic_flame_ring",
-                        "sonic_mystic_melody",
-                        "playable_tails",
-                        "tails_booster",
-                        "tails_mystic_melody",
-                        "tails_bazooka",
+						"sonic_missions",
+                        "Sonic.Playable",
+                        "Sonic.LightShoes",
+                        "Sonic.CrystalRing",
+                        "Sonic.AncientLight"
+					],
+					[
+                        "tails_missions",
+                        "Tails.Playable",
+                        "Tails.JetAnklet",
+                        "Tails.RhythmBadge",
                         ""
                     ],
                     [
-                        "playable_knuckles",
-                        "knuckles_shovel_claws",
-                        "knuckles_air_necklace",
-                        "knuckles_hammer_gloves",
-                        "knuckles_sunglasses",
-                        "playable_amy",
-                        "shadow_air_shoes",
-                        "shadow_ancient_light",
-                        "shadow_mystic_melody",
-                        "emblems",
+						"knuckles_missions",
+                        "Knuckles.Playable",
+                        "Knuckles.ShovelClaw",
+                        "Knuckles.FightingGloves",
+						""
+					],
+					[
+                        "amy_missions",
+                        "Amy.Playable",
+                        "Amy.WarriorFeather",
+                        "Amy.LongHammer",
                         ""
                     ],
                     [
-                        "playable_gamma",
-                        "eggman_mystic_melody",
-                        "eggman_jet_engine",
-                        "eggman_large_cannon",
-                        "eggman_protective_armor",
-                        "playable_big",
-                        "rouge_pick_nails",
-                        "rouge_treasure_scope",
-                        "rouge_iron_boots",
-                        "black_market_tokens",
-                        ""
-                    ],
-                    [
-                        "white_chaos_emerald",
-                        "red_chaos_emerald",
-                        "cyan_chaos_emerald",
-                        "purple_chaos_emerald",
-                        "green_chaos_emerald",
-                        "yellow_chaos_emerald",
-                        "blue_chaos_emerald",
-                        "",
-                        "",
-                        "",
-                        ""
+						"gamma_missions",
+                        "Gamma.Playable",
+                        "Gamma.JetBooster",
+                        "Gamma.LaserBlaster",
+						""
+					],
+					[
+					    "big_missions",
+                        "Big.Playable",
+                        "Big.LifeBelt",
+                        "Big.PowerRod",
+					],
+					[
+						"Progression.Emblem",
+                        "Big.Lure1",
+						"Big.Lure2",
+						"Big.Lure3",
+						"Big.Lure4",
                     ]
-                ]
+	            ]
             }
         ]
     },
-
-    "tracker_settings": {
+    "key_items": {
         "type": "array",
         "orientation": "horizontal",
+		"item_size": 64,
         "content": [
             {
                 "type": "itemgrid",
@@ -75,40 +72,18 @@
                 "item_margin": "2,2",
                 "rows": [
                     [
-                        "keysanity",
-                        "beetlesanity",
-                        "pipesanity",
-                        "hiddensanity",
-                        "omosanity",
-                        "animalsanity",
-                        "kartsanity",
-                    ],
-                    [
-                        "chao_race_difficulty",
-                        "chao_stats",
-                        "chao_body_parts",
-                        "chao_kindergarten",
-                        "black_market_slots",
-                        "",
-                        ""
-                    ],
-                    [
-                        "chao_karate_difficulty",
-                        "chao_stats_stamina",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    [
-                        "chao_prize_only",
-                        "chao_stats_hidden",
-                        "",
-                        "gate_count",
-                        "cannons_core_cost",
-                        "goal",
-                        "show_missions"
+                        "KeyItem.Train",
+                        "KeyItem.Boat",
+                        "KeyItem.Raft",
+                        "KeyItem.HotelKeys",
+                        "KeyItem.CasinoKeys",
+					],
+					[
+                        "KeyItem.TwinkleParkTicket",
+                        "KeyItem.EmployeeCard",
+                        "KeyItem.IceStone",
+                        "KeyItem.Dynamite",
+                        "KeyItem.JungleKart",
                     ]
                 ]
             }

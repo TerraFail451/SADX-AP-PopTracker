@@ -1,23 +1,24 @@
 {
     "tracker_default": {
         "type": "container",
-        "background": "#877373",
+        "background": "#2a3652", // #272b36 is darker, #2a3652 is lighter
         "content": {
             "type": "dock",
             "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
-                    "dock": "bottom",
-                    "v_alignment": "stretch",
+                    "dock": "left",
+					"h_alignment": "stretch",
+                    "v_alignment": "center",
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
-                            "dock": "left",
+                            "header": "Characters and Emblems",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "tracker_items"
+                                "key": "characters"
                             },
                             "header_content": {
                                 "type": "button_popup",
@@ -28,29 +29,17 @@
                         },
                         {
                             "type": "group",
-                            "header": "Settings",
-                            "dock": "left",
+                            "header": "Key Items",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "tracker_settings"
+                                "key": "key_items"
                             },
                             "header_content": {
                                 "type": "button_popup",
                                 "style": "settings",
                                 "popup_background": "#55212121",
                                 "layout": "settings_popup"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Pinned Locations",
-                            "content": {
-                                "type": "recentpins",
-                                "style": "wrap",
-                                "h_alignment": "stretch",
-                                "v_alignment": "stretch",
-                                "orientation": "horizontal",
-                                "compact": true
                             }
                         }
                     ]
