@@ -1,7 +1,7 @@
 {
     "tracker_default": {
         "type": "container",
-        "background": "#2a3652", // #272b36 is darker, #2a3652 is lighter
+        "background": "#272b36", // #272b36 is darker, #2a3652 is lighter
         "content": {
             "type": "dock",
             "dropshadow": true,

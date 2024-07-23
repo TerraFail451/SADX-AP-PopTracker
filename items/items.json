@@ -2,7 +2,7 @@
     {
         "name": "Playable Sonic",
         "type": "toggle",
-        "img": "images/items/playable_sonic.png",
+        "img": "images/SonicIcon.png",
         "codes": "Sonic.Playable"
     },
 	{
@@ -13,17 +13,17 @@
 		"stages": [
             {
                 "img": "images/c.png",
-                "codes": "sonic_missions_c",
+                "codes": "sonic_missions_1",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b.png",
-                "codes": "sonic_missions_c_b",
+                "codes": "sonic_missions_2",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b_a.png",
-                "codes": "sonic_missions_c_b_a",
+                "codes": "sonic_missions_3",
                 "inherit_codes": false
             }
         ]
@@ -31,25 +31,25 @@
     {
         "name": "Light Shoes (Sonic)",
         "type": "toggle",
-        "img": "images/items/sonic_light_shoes.png",
+        "img": "images/items/Sonic.LightShoes.png",
         "codes": "Sonic.LightShoes"
     },
 	{
         "name": "Crystal Ring (Sonic)",
         "type": "toggle",
-        "img": "images/items/sonic_light_shoes.png",
+        "img": "images/items/Sonic.CrystalRing.png",
         "codes": "Sonic.CrystalRing"
     },
     {
         "name": "Ancient Light (Sonic)",
         "type": "toggle",
-        "img": "images/items/sonic_ancient_light.png",
+        "img": "images/items/sonic_ancient_light.png",  // ancient light model/
         "codes": "Sonic.AncientLight"
     },
     {
         "name": "Playable Tails",
         "type": "toggle",
-        "img": "images/items/playable_tails.png",
+        "img": "images/TailsIcon.png",
         "codes": "Tails.Playable"
     },
 	{
@@ -61,22 +61,22 @@
         "stages": [
             {
                 "img": "images/none.png",
-                "codes": "tails_missions_off",
+                "codes": "tails_missions_0",
                 "inherit_codes": false
             },
             {
                 "img": "images/c.png",
-                "codes": "tails_missions_c",
+                "codes": "tails_missions_1",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b.png",
-                "codes": "tails_missions_c_b",
+                "codes": "tails_missions_2",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b_a.png",
-                "codes": "tails_missions_c_b_a",
+                "codes": "tails_missions_3",
                 "inherit_codes": false
             }
         ]
@@ -84,19 +84,19 @@
     {
         "name": "Jet Anklet (Tails)",
         "type": "toggle",
-        "img": "images/items/tails_mystic_melody.png",
+        "img": "images/items/Tails.JetAnklet.png",
         "codes": "Tails.JetAnklet"
     },
     {
         "name": "Rhythm Badge (Tails)",
         "type": "toggle",
-        "img": "images/items/tails_bazooka.png",
+        "img": "images/items/Tails.RhythmBadge.png",
         "codes": "Tails.RhythmBadge"
     },
     {
         "name": "Playable Knuckles",
         "type": "toggle",
-        "img": "images/items/playable_knuckles.png",
+        "img": "images/KnucklesIcon.png",
         "codes": "Knuckles.Playable"
     },
 	{
@@ -108,22 +108,22 @@
         "stages": [
             {
                 "img": "images/none.png",
-                "codes": "knuckles_missions_off",
+                "codes": "knuckles_missions_0",
                 "inherit_codes": false
             },
             {
                 "img": "images/c.png",
-                "codes": "knuckles_missions_c",
+                "codes": "knuckles_missions_1",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b.png",
-                "codes": "knuckles_missions_c_b",
+                "codes": "knuckles_missions_2",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b_a.png",
-                "codes": "knuckles_missions_c_b_a",
+                "codes": "knuckles_missions_3",
                 "inherit_codes": false
             }
         ]
@@ -131,19 +131,19 @@
     {
         "name": "Shovel Claw (Knuckles)",
         "type": "toggle",
-        "img": "images/items/knuckles_shovel_claws.png",
+        "img": "images/items/Knuckles.ShovelClaw.png",
         "codes": "Knuckles.ShovelClaw"
     },
     {
         "name": "Fighting Gloves (Knuckles)",
         "type": "toggle",
-        "img": "images/items/knuckles_hammer_gloves.png",
+        "img": "images/items/Knuckles.FightingGloves.png",
         "codes": "Knuckles.FightingGloves"
     },
     {
         "name": "Playable Amy",
         "type": "toggle",
-        "img": "images/items/playable_amy.png",
+        "img": "images/AmyIcon.png",
         "codes": "Amy.Playable"
     },
 	{
@@ -155,22 +155,22 @@
         "stages": [
             {
                 "img": "images/none.png",
-                "codes": "amy_missions_off",
+                "codes": "amy_missions_0",
                 "inherit_codes": false
             },
             {
                 "img": "images/c.png",
-                "codes": "amy_missions_c",
+                "codes": "amy_missions_1",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b.png",
-                "codes": "amy_missions_c_b",
+                "codes": "amy_missions_2",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b_a.png",
-                "codes": "amy_missions_c_b_a",
+                "codes": "amy_missions_3",
                 "inherit_codes": false
             }
         ]
@@ -178,19 +178,19 @@
     {
         "name": "Warrior Feather (Amy)",
         "type": "toggle",
-        "img": "images/items/shadow_ancient_light.png",
+        "img": "images/items/Amy.WarriorFeather.png",
         "codes": "Amy.WarriorFeather"
     },
     {
         "name": "Long Hammer (Amy)",
         "type": "toggle",
-        "img": "images/items/shadow_mystic_melody.png",
+        "img": "images/items/Amy.LongHammer.png",
         "codes": "Amy.LongHammer"
     },
     {
         "name": "Playable Gamma",
         "type": "toggle",
-        "img": "images/items/playable_gamma.png",
+        "img": "images/GammaIcon.png",
         "codes": "Gamma.Playable"
     },
     {
@@ -202,22 +202,22 @@
         "stages": [
             {
                 "img": "images/none.png",
-                "codes": "gamma_missions_off",
+                "codes": "gamma_missions_0",
                 "inherit_codes": false
             },
             {
                 "img": "images/c.png",
-                "codes": "gamma_missions_c",
+                "codes": "gamma_missions_1",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b.png",
-                "codes": "gamma_missions_c_b",
+                "codes": "gamma_missions_2",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b_a.png",
-                "codes": "gamma_missions_c_b_a",
+                "codes": "gamma_missions_3",
                 "inherit_codes": false
             }
         ]
@@ -225,19 +225,19 @@
     {
         "name": "Jet Booster (Gamma)",
         "type": "toggle",
-        "img": "images/items/eggman_jet_engine.png",
+        "img": "images/items/Gamma.JetBooster.png",
         "codes": "Gamma.JetBooster"
     },
     {
         "name": "Laser Blaster (Gamma)",
         "type": "toggle",
-        "img": "images/items/eggman_large_cannon.png",
+        "img": "images/items/Gamma.LaserBlaster.png",
         "codes": "Gamma.LaserBlaster"
     },
     {
         "name": "Playable Big",
         "type": "toggle",
-        "img": "images/items/playable_big.png",
+        "img": "images/BigIcon.png",
         "codes": "Big.Playable"
     },
     {
@@ -249,22 +249,22 @@
         "stages": [
             {
                 "img": "images/none.png",
-                "codes": "big_missions_off",
+                "codes": "big_missions_0",
                 "inherit_codes": false
             },
             {
                 "img": "images/c.png",
-                "codes": "big_missions_c",
+                "codes": "big_missions_1",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b.png",
-                "codes": "big_missions_c_b",
+                "codes": "big_missions_2",
                 "inherit_codes": false
             },
             {
                 "img": "images/c_b_a.png",
-                "codes": "big_missions_c_b_a",
+                "codes": "big_missions_3",
                 "inherit_codes": false
             }
         ]
@@ -272,97 +272,97 @@
     {
         "name": "Life Belt (Big)",
         "type": "toggle",
-        "img": "images/items/rouge_treasure_scope.png",
+        "img": "images/items/Big.LifeBelt.png",
         "codes": "Big.LifeBelt"
     },
     {
         "name": "Power Rod (Big)",
         "type": "toggle",
-        "img": "images/items/rouge_iron_boots.png",
+        "img": "images/items/Big.PowerRod.png",
         "codes": "Big.PowerRod"
     },
 	{
         "name": "Lure 1 (Big)",
         "type": "toggle",
-        "img": "images/items/rouge_iron_boots.png",
+        "img": "images/items/Big.Lure1.png",
         "codes": "Big.Lure1"
     },
 	{
         "name": "Lure 2 (Big)",
         "type": "toggle",
-        "img": "images/items/rouge_iron_boots.png",
+        "img": "images/items/Big.Lure2.png",
         "codes": "Big.Lure2"
     },
 	{
         "name": "Lure 3 (Big)",
         "type": "toggle",
-        "img": "images/items/rouge_iron_boots.png",
+        "img": "images/items/Big.Lure3.png",
         "codes": "Big.Lure3"
     },
 	{
         "name": "Lure 4 (Big)",
         "type": "toggle",
-        "img": "images/items/rouge_iron_boots.png",
+        "img": "images/items/Big.Lure4.png",
         "codes": "Big.Lure4"
     },
     {
         "name": "Train",
         "type": "toggle",
-        "img": "images/items/ap_emerald_white.png",
+        "img": "images/items/KeyItem.Train.png",
         "codes": "KeyItem.Train"
     },
     {
         "name": "Boat",
         "type": "toggle",
-        "img": "images/items/ap_emerald_red.png",
+        "img": "images/items/KeyItem.Boat.png",
         "codes": "KeyItem.Boat"
     },
     {
         "name": "Raft",
         "type": "toggle",
-        "img": "images/items/ap_emerald_cyan.png",
+        "img": "images/items/KeyItem.Raft.png",
         "codes": "KeyItem.Raft"
     },
     {
         "name": "Hotel Keys",
         "type": "toggle",
-        "img": "images/items/ap_emerald_purple.png",
+        "img": "images/items/KeyItem.HotelKeys.png",
         "codes": "KeyItem.HotelKeys"
     },
     {
         "name": "Casino District Keys",
         "type": "toggle",
-        "img": "images/items/ap_emerald_green.png",
+        "img": "images/items/KeyItem.CasinoKeys.png",
         "codes": "KeyItem.CasinoKeys"
     },
     {
         "name": "Twinkle Park Ticket",
         "type": "toggle",
-        "img": "images/items/ap_emerald_yellow.png",
+        "img": "images/items/KeyItem.TwinkleParkTicket.png",
         "codes": "KeyItem.TwinkleParkTicket"
     },
     {
         "name": "Employee Card",
         "type": "toggle",
-        "img": "images/items/ap_emerald_blue.png",
+        "img": "images/items/KeyItem.EmployeeCard.png",
         "codes": "KeyItem.EmployeeCard"
     },
 	{
         "name": "Ice Stone",
         "type": "toggle",
-        "img": "images/items/ap_emerald_blue.png",
+        "img": "images/items/KeyItem.IceStone.png",
         "codes": "KeyItem.IceStone"
     },
 	{
         "name": "Dynamite",
         "type": "toggle",
-        "img": "images/items/ap_emerald_blue.png",
+        "img": "images/items/KeyItem.Dynamite.png",
         "codes": "KeyItem.Dynamite"
     },
 	{
         "name": "Jungle Kart",
         "type": "toggle",
-        "img": "images/items/ap_emerald_blue.png",
+        "img": "images/items/KeyItem.JungleKart.png",
         "codes": "KeyItem.JungleKart"
     },
     {

@@ -2,11 +2,11 @@
     "characters": {
         "type": "array",
         "orientation": "horizontal",
-		"item_size": 64,
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "left",
+				"item_size": "48",
                 "item_margin": "2,2",
                 "rows": [
                     [
@@ -49,13 +49,14 @@
                         "Big.Playable",
                         "Big.LifeBelt",
                         "Big.PowerRod",
-					],
-					[
 						"Progression.Emblem",
-                        "Big.Lure1",
-						"Big.Lure2",
-						"Big.Lure3",
-						"Big.Lure4",
+//					],
+//					[
+//						"Progression.Emblem",
+//						"Big.Lure1",
+//						"Big.Lure2",
+//						"Big.Lure3",
+//						"Big.Lure4",
                     ]
 	            ]
             }
@@ -64,11 +65,11 @@
     "key_items": {
         "type": "array",
         "orientation": "horizontal",
-		"item_size": 64,
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "left",
+				"item_size": "48",
                 "item_margin": "2,2",
                 "rows": [
                     [
