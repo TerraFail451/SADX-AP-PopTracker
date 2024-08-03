@@ -49,15 +49,8 @@
                         "Big.Playable",
                         "Big.LifeBelt",
                         "Big.PowerRod",
-						"Progression.Emblem",
-//					],
-//					[
-//						"Progression.Emblem",
-//						"Big.Lure1",
-//						"Big.Lure2",
-//						"Big.Lure3",
-//						"Big.Lure4",
-                    ]
+						"Big.Lure",
+					]
 	            ]
             }
         ]
@@ -76,15 +69,20 @@
                         "KeyItem.Train",
                         "KeyItem.Boat",
                         "KeyItem.Raft",
-                        "KeyItem.HotelKeys",
-                        "KeyItem.CasinoKeys",
+						"KeyItem.JungleCart",
 					],
 					[
+						"KeyItem.HotelKeys",
+                        "KeyItem.CasinoKeys",
                         "KeyItem.TwinkleParkTicket",
                         "KeyItem.EmployeeCard",
-                        "KeyItem.IceStone",
+					],
+					[
                         "KeyItem.Dynamite",
-                        "KeyItem.JungleKart",
+//						"KeyItem.WindStone",
+						"KeyItem.IceStone",
+						"",
+						"Progression.Emblem",
                     ]
                 ]
             }
