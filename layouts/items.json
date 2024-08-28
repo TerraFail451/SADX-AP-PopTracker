@@ -10,46 +10,40 @@
                 "item_margin": "2,2",
                 "rows": [
                     [
-						"sonic_missions",
                         "Sonic.Playable",
                         "Sonic.LightShoes",
                         "Sonic.CrystalRing",
                         "Sonic.AncientLight"
 					],
 					[
-                        "tails_missions",
                         "Tails.Playable",
                         "Tails.JetAnklet",
                         "Tails.RhythmBadge",
                         ""
                     ],
                     [
-						"knuckles_missions",
                         "Knuckles.Playable",
                         "Knuckles.ShovelClaw",
                         "Knuckles.FightingGloves",
 						""
 					],
 					[
-                        "amy_missions",
                         "Amy.Playable",
                         "Amy.WarriorFeather",
                         "Amy.LongHammer",
                         ""
                     ],
-                    [
-						"gamma_missions",
-                        "Gamma.Playable",
-                        "Gamma.JetBooster",
-                        "Gamma.LaserBlaster",
-						""
-					],
 					[
-					    "big_missions",
                         "Big.Playable",
                         "Big.LifeBelt",
                         "Big.PowerRod",
 						"Big.Lure",
+					],
+                    [
+                        "Gamma.Playable",
+                        "Gamma.JetBooster",
+                        "Gamma.LaserBlaster",
+						""
 					]
 	            ]
             }
@@ -83,7 +77,80 @@
 						"KeyItem.IceStone",
 						"",
 						"Progression.Emblem",
-                    ]
+					]
+                ]
+            }
+        ]
+    },
+
+	"character_options": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+				"item_size": "96",
+                "item_margin": "2,2",
+                "rows": [
+					[
+						"Options.SonicMissions",
+						"Options.SonicLifeSanity",
+						"Options.RandomizedSonicUpgrades",
+					],
+					[
+						"Options.TailsMissions",
+                        "Options.TailsLifeSanity",
+ 						"Options.RandomizedTailsUpgrades",
+					],
+					[
+						"Options.KnucklesMissions",
+                        "Options.KnucklesLifeSanity",
+						"Options.RandomizedKnucklesUpgrades",
+					],
+					[
+						"Options.AmyMissions",
+						"Options.AmyLifeSanity",
+						"Options.RandomizedAmyUpgrades",
+					],
+					[
+						"Options.BigMissions",
+						"Options.BigLifeSanity",
+						"Options.RandomizedBigUpgrades",
+					],
+					[
+						"Options.GammaMissions",
+						"Options.GammaLifeSanity",
+						"Options.RandomizedGammaUpgrades",
+					]
+                ]
+            }
+        ]
+    },
+	"misc_options": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+				"item_size": "96",
+                "item_margin": "2,2",
+                "rows": [
+					[
+						"Options.StartingLocation",
+                        "Options.FieldEmblemChecks",
+                        "Options.SubLevelChecks",
+					],
+					[
+						"Options.BossChecks",
+						"Options.UnifyChaos4",
+                        "Options.UnifyChaos6",
+                        "Options.UnifyEggHornet",
+					],
+					[
+						"Options.EmblemRequirement",
+					]
                 ]
             }
         ]

@@ -1,12 +1,12 @@
 {
     "tracker_default": {
         "type": "container",
-        "background": "#272b36", // #272b36 is darker, #2a3652 is lighter
+        "background": "#272b36",
         "content": {
             "type": "dock",
             "dropshadow": true,
             "content": [
-                {
+				{
                     "type": "dock",
                     "dock": "left",
 					"h_alignment": "stretch",
@@ -14,7 +14,7 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Characters and Emblems",
+                            "header": "Characters",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
@@ -114,274 +114,6 @@
                                 "type": "map",
                                 "maps": ["egg_carrier_hall"]
                                     }
-                                }]},
-                    {
-                    "title":"Emerald Coast",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Azure Blue World",
-                            "content": {
-                                "type": "map",
-                                "maps": ["emerald_coast_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Windy and Ripply",
-                            "content": {
-                                "type": "map",
-                                "maps": ["emerald_coast_2"]
-                                    }
-                                },
-                            {
-                            "title": "Big Fishin'",
-                            "content": {
-                                "type": "map",
-                                "maps": ["emerald_coast_big"]
-                                    }
-                                }]},
-                    {
-                    "title":"Windy Valley",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Windy Hill",
-                            "content": {
-                                "type": "map",
-                                "maps": ["windy_valley_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Tornado",
-                            "content": {
-                                "type": "map",
-                                "maps": ["windy_valley_2"]
-                                    }
-                                },
-                            {
-                            "title": "Act 3: The Air",
-                            "content": {
-                                "type": "map",
-                                "maps": ["windy_valley_3"]
-                                    }
-                                }]},
-					{
-                    "title":"Casinopolis",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Hall",
-                            "content": {
-                                "type": "map",
-                                "maps": ["casinopolis_hall"]
-                                    }
-                                },
-                            {
-                            "title": "Pinball",
-                            "content": {
-                                "type": "map",
-                                "maps": ["casinopolis_pinball"]
-                                    }
-                                },
-                            {
-                            "title": "Sewers: Dilapidated Way",
-                            "content": {
-                                "type": "map",
-                                "maps": ["casinopolis_sewers"]
-                                    }
-                                }]},
-					{
-                    "title":"Ice Cap",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Snowy Mountain",
-                            "content": {
-                                "type": "map",
-                                "maps": ["ice_cap_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Limestone Cave",
-                            "content": {
-                                "type": "map",
-                                "maps": ["ice_cap_2"]
-                                    }
-                                },
-                            {
-                            "title": "Act 3: Snowboard",
-                            "content": {
-                                "type": "map",
-                                "maps": ["ice_cap_3"]
-                                    }
-                                }]},
-					{
-                    "title":"Twinkle Park",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Twinkle Cart",
-                            "content": {
-                                "type": "map",
-                                "maps": ["twinkle_park_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Pleasure Castle",
-                            "content": {
-                                "type": "map",
-                                "maps": ["twinkle_park_2"]
-                                    }
-                                },
-                            {
-                            "title": "Act 3: Fakery Way",
-                            "content": {
-                                "type": "map",
-                                "maps": ["twinkle_park_3"]
-                                    }
-                                }]},
-					{
-                    "title":"Speed Highway",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Speed Highway",
-                            "content": {
-                                "type": "map",
-                                "maps": ["speed_highway_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Goin Down!?",
-                            "content": {
-                                "type": "map",
-                                "maps": ["speed_highway_2"]
-                                    }
-                                },
-                            {
-                            "title": "Act 3: At Dawn",
-                            "content": {
-                                "type": "map",
-                                "maps": ["speed_highway_3"]
-                                    }
-                                }]},
-					{
-                    "title":"Red Mountain",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Mt. Red - A Symbol of Thrill",
-                            "content": {
-                                "type": "map",
-                                "maps": ["red_mountain_1s"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Red Hot Skull",
-                            "content": {
-                                "type": "map",
-                                "maps": ["red_mountain_2"]
-                                    }
-                                },
-                            {
-                            "title": "Act 1 (Knuckles)",
-                            "content": {
-                                "type": "map",
-                                "maps": ["red_mountain_1k"]
-                                    }
-                                }]},
-					{
-                    "title":"Sky Deck",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Skydeck A Go! Go!",
-                            "content": {
-                                "type": "map",
-                                "maps": ["sky_deck_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Skydeck A Go! Go! (Part 2)",
-                            "content": {
-                                "type": "map",
-                                "maps": ["sky_deck_2"]
-                                    }
-                                },
-                            {
-                            "title": "Act 3: General Offensive",
-                            "content": {
-                                "type": "map",
-                                "maps": ["sky_deck_3"]
-                                    }
-                                }]},
-					{
-                    "title":"Hot Shelter",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Bad Taste Aquarium",
-                            "content": {
-                                "type": "map",
-                                "maps": ["hot_shelter_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Red Barrage Area",
-                            "content": {
-                                "type": "map",
-                                "maps": ["hot_shelter_2a"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2 (Gamma)",
-                            "content": {
-                                "type": "map",
-                                "maps": ["hot_shelter_2g"]
-                                    }
-                                }]},
-					{
-                    "title":"Lost World",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Tricky Maze",
-                            "content": {
-                                "type": "map",
-                                "maps": ["lost_world_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Danger! Chased by Rock / Leading Lights",
-                            "content": {
-                                "type": "map",
-                                "maps": ["lost_world_2"]
-                                    }
-                                }]},
-					{
-                    "title":"Final Egg",
-                    "type": "tabbed",
-                    "tabs": [
-                            {
-                            "title": "Act 1: Mechanical Resonance",
-                            "content": {
-                                "type": "map",
-                                "maps": ["final_egg_1"]
-                                    }
-                                },
-                            {
-                            "title": "Act 2: Crank the Heat Up!!",
-                            "content": {
-                                "type": "map",
-                                "maps": ["final_egg_2"]
-                                    }
-                                },
-                            {
-                            "title": "Act 3: Gamma's Training Area",
-                            "content": {
-                                "type": "map",
-                                "maps": ["final_egg_3"]
-                                    }
                                 }]}
                             ]
                         }
@@ -391,10 +123,51 @@
         }
     },
     "tracker_broadcast": {
-        "type": "container",
-        "content": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
             "type": "layout",
-            "key": "tracker_items"
-        }
-    }
+            "key": "characters"
+          },
+          {
+            "type": "layout",
+            "key": "key_items"
+          }
+        ]
+      }
+    ]
+  },
+	"settings_popup": {
+		"type": "array",
+		"orientation": "horizontal",
+		"h_alignment": "left",
+		"background": "#272b36",
+		"content": [
+			{
+			"type": "group",
+			"header": "Character Options",
+			"dock": "bottom",
+			"content": {
+			"type": "layout",
+			"key": "character_options"
+				}	
+			},
+			{
+			"type": "group",
+			"header": "Miscellaneous Options",
+			"dock": "bottom",
+			"content": {
+			"type": "layout",
+			"key": "misc_options"
+				}	
+			},
+		]
+	}
 }

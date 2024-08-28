@@ -1,0 +1,400 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#272b36",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+					"h_alignment": "stretch",
+                    "v_alignment": "center",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Characters",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "characters"
+                            },
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Key Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "key_items"
+                            },
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            }
+                        }
+                    ]
+                },
+            {
+            "type": "array",
+            "v_alignment": "stretch",
+            "margin": "10, 10",
+            "content": [
+                        {
+                "type": "tabbed",
+                "dock": "top",
+                "margin": "0, 0",
+                "content": [
+                    {
+                    "title": "Station Square",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Station Square",
+                            "content": {
+                              "type":"map",
+                              "maps": ["station_square"]
+                                    }
+                                }]},
+                    {
+                    "title":"Mystic Ruins",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Station",
+                            "content": {
+                                "type": "map",
+                                "maps": ["mystic_ruins_station"]
+                                    }
+                                },
+                            {
+                            "title": "Angel Island",
+                            "content": {
+                                "type": "map",
+                                "maps": ["mystic_ruins_angel_island"]
+                                    }
+                                },
+                            {
+                            "title": "Jungle",
+                            "content": {
+                                "type": "map",
+                                "maps": ["mystic_ruins_jungle"]
+                                    }
+                                }]},
+                    {
+                    "title":"Egg Carrier",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Transformed",
+                            "content": {
+                                "type": "map",
+                                "maps": ["egg_carrier_transformed"]
+                                    }
+                                },
+                            {
+                            "title": "Untransformed",
+                            "content": {
+                                "type": "map",
+                                "maps": ["egg_carrier_untransformed"]
+                                    }
+                                },
+                            {
+                            "title": "Hall",
+                            "content": {
+                                "type": "map",
+                                "maps": ["egg_carrier_hall"]
+                                    }
+                                }]},
+                    {
+                    "title":"Emerald Coast",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Azure Blue World",
+                            "content": {
+                                "type": "map",
+                                "maps": ["emerald_coast_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Windy and Ripply",
+                            "content": {
+                                "type": "map",
+                                "maps": ["emerald_coast_2"]
+                                    }
+                                },
+                            {
+                            "title": "Big Fishin'",
+                            "content": {
+                                "type": "map",
+                                "maps": ["emerald_coast_big"]
+                                    }
+                                }]},
+                    {
+                    "title":"Windy Valley",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Windy Hill",
+                            "content": {
+                                "type": "map",
+                                "maps": ["windy_valley_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Tornado",
+                            "content": {
+                                "type": "map",
+                                "maps": ["windy_valley_2"]
+                                    }
+                                },
+                            {
+                            "title": "Act 3: The Air",
+                            "content": {
+                                "type": "map",
+                                "maps": ["windy_valley_3"]
+                                    }
+                                }]},
+					{
+                    "title":"Casinopolis",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Hall",
+                            "content": {
+                                "type": "map",
+                                "maps": ["casinopolis_hall"]
+                                    }
+                                },
+                            {
+                            "title": "Pinball",
+                            "content": {
+                                "type": "map",
+                                "maps": ["casinopolis_pinball"]
+                                    }
+                                },
+                            {
+                            "title": "Sewers: Dilapidated Way",
+                            "content": {
+                                "type": "map",
+                                "maps": ["casinopolis_sewers"]
+                                    }
+                                }]},
+					{
+                    "title":"Ice Cap",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Snowy Mountain",
+                            "content": {
+                                "type": "map",
+                                "maps": ["ice_cap_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Limestone Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": ["ice_cap_2"]
+                                    }
+                                },
+                            {
+                            "title": "Act 3: Snowboard",
+                            "content": {
+                                "type": "map",
+                                "maps": ["ice_cap_3"]
+                                    }
+                                }]},
+					{
+                    "title":"Twinkle Park",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Twinkle Cart",
+                            "content": {
+                                "type": "map",
+                                "maps": ["twinkle_park_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Pleasure Castle",
+                            "content": {
+                                "type": "map",
+                                "maps": ["twinkle_park_2"]
+                                    }
+                                },
+                            {
+                            "title": "Act 3: Fakery Way",
+                            "content": {
+                                "type": "map",
+                                "maps": ["twinkle_park_3"]
+                                    }
+                                }]},
+					{
+                    "title":"Speed Highway",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Speed Highway",
+                            "content": {
+                                "type": "map",
+                                "maps": ["speed_highway_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Goin Down!?",
+                            "content": {
+                                "type": "map",
+                                "maps": ["speed_highway_2"]
+                                    }
+                                },
+                            {
+                            "title": "Act 3: At Dawn",
+                            "content": {
+                                "type": "map",
+                                "maps": ["speed_highway_3"]
+                                    }
+                                }]},
+					{
+                    "title":"Red Mountain",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Mt. Red - A Symbol of Thrill",
+                            "content": {
+                                "type": "map",
+                                "maps": ["red_mountain_1s"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Red Hot Skull",
+                            "content": {
+                                "type": "map",
+                                "maps": ["red_mountain_2"]
+                                    }
+                                },
+                            {
+                            "title": "Act 1 (Knuckles)",
+                            "content": {
+                                "type": "map",
+                                "maps": ["red_mountain_1k"]
+                                    }
+                                }]},
+					{
+                    "title":"Sky Deck",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Skydeck A Go! Go!",
+                            "content": {
+                                "type": "map",
+                                "maps": ["sky_deck_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Skydeck A Go! Go! (Part 2)",
+                            "content": {
+                                "type": "map",
+                                "maps": ["sky_deck_2"]
+                                    }
+                                },
+                            {
+                            "title": "Act 3: General Offensive",
+                            "content": {
+                                "type": "map",
+                                "maps": ["sky_deck_3"]
+                                    }
+                                }]},
+					{
+                    "title":"Hot Shelter",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Bad Taste Aquarium",
+                            "content": {
+                                "type": "map",
+                                "maps": ["hot_shelter_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Red Barrage Area",
+                            "content": {
+                                "type": "map",
+                                "maps": ["hot_shelter_2a"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2 (Gamma)",
+                            "content": {
+                                "type": "map",
+                                "maps": ["hot_shelter_2g"]
+                                    }
+                                }]},
+					{
+                    "title":"Lost World",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Tricky Maze",
+                            "content": {
+                                "type": "map",
+                                "maps": ["lost_world_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Danger! Chased by Rock / Leading Lights",
+                            "content": {
+                                "type": "map",
+                                "maps": ["lost_world_2"]
+                                    }
+                                }]},
+					{
+                    "title":"Final Egg",
+                    "type": "tabbed",
+                    "tabs": [
+                            {
+                            "title": "Act 1: Mechanical Resonance",
+                            "content": {
+                                "type": "map",
+                                "maps": ["final_egg_1"]
+                                    }
+                                },
+                            {
+                            "title": "Act 2: Crank the Heat Up!!",
+                            "content": {
+                                "type": "map",
+                                "maps": ["final_egg_2"]
+                                    }
+                                },
+                            {
+                            "title": "Act 3: Gamma's Training Area",
+                            "content": {
+                                "type": "map",
+                                "maps": ["final_egg_3"]
+                                    }
+                                }]}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_broadcast": {
+        "type": "container",
+        "content": {
+            "type": "layout",
+            "key": "tracker_items"
+        }
+    }
+}

@@ -9,21 +9,28 @@
         "name": "Sonic Missions",
         "type": "progressive",
 		"allow_disabled": false,
-        "codes": "sonic_missions",
+		"initial_stage_idx": 1,
+        "codes": "Options.SonicMissions",
 		"stages": [
-            {
-                "img": "images/c.png",
-                "codes": "sonic_missions_1",
+			{
+                "img": "images/options/Missions/Sonic/none.png",
+				"img_mods": "@disabled",
+                "codes": "Options.SonicMissions.0",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b.png",
-                "codes": "sonic_missions_2",
+                "img": "images/options/Missions/Sonic/c.png",
+                "codes": "Options.SonicMissions.1",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b_a.png",
-                "codes": "sonic_missions_3",
+                "img": "images/options/Missions/Sonic/c_b.png",
+                "codes": "Options.SonicMissions.2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/options/Missions/Sonic/c_b_a.png",
+                "codes": "Options.SonicMissions.3",
                 "inherit_codes": false
             }
         ]
@@ -57,26 +64,27 @@
         "type": "progressive",
 		"allow_disabled": false,
 		"initial_stage_idx": 1,
-        "codes": "tails_missions",
+        "codes": "Options.TailsMissions",
         "stages": [
             {
-                "img": "images/none.png",
-                "codes": "tails_missions_0",
+                "img": "images/options/Missions/Tails/none.png",
+				"img_mods": "@disabled",
+                "codes": "Options.TailsMissions.0",
                 "inherit_codes": false
             },
             {
-                "img": "images/c.png",
-                "codes": "tails_missions_1",
+                "img": "images/options/Missions/Tails/c.png",
+                "codes": "Options.TailsMissions.1",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b.png",
-                "codes": "tails_missions_2",
+                "img": "images/options/Missions/Tails/c_b.png",
+                "codes": "Options.TailsMissions.2",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b_a.png",
-                "codes": "tails_missions_3",
+                "img": "images/options/Missions/Tails/c_b_a.png",
+                "codes": "Options.TailsMissions.3",
                 "inherit_codes": false
             }
         ]
@@ -104,26 +112,27 @@
         "type": "progressive",
 		"allow_disabled": false,
 		"initial_stage_idx": 1,
-        "codes": "knuckles_missions",
+        "codes": "Options.KnucklesMissions",
         "stages": [
             {
-                "img": "images/none.png",
-                "codes": "knuckles_missions_0",
+                "img": "images/options/Missions/Knuckles/none.png",
+				"img_mods": "@disabled",
+                "codes": "Options.KnucklesMissions.0",
                 "inherit_codes": false
             },
             {
-                "img": "images/c.png",
-                "codes": "knuckles_missions_1",
+                "img": "images/options/Missions/Knuckles/c.png",
+                "codes": "Options.KnucklesMissions.1",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b.png",
-                "codes": "knuckles_missions_2",
+                "img": "images/options/Missions/Knuckles/c_b.png",
+                "codes": "Options.KnucklesMissions.2",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b_a.png",
-                "codes": "knuckles_missions_3",
+                "img": "images/options/Missions/Knuckles/c_b_a.png",
+                "codes": "Options.KnucklesMissions.3",
                 "inherit_codes": false
             }
         ]
@@ -151,26 +160,27 @@
         "type": "progressive",
 		"allow_disabled": false,
 		"initial_stage_idx": 1,
-        "codes": "amy_missions",
+        "codes": "Options.AmyMissions",
         "stages": [
             {
-                "img": "images/none.png",
-                "codes": "amy_missions_0",
+                "img": "images/options/Missions/Amy/none.png",
+				"img_mods": "@disabled",
+                "codes": "Options.AmyMissions.0",
                 "inherit_codes": false
             },
             {
-                "img": "images/c.png",
-                "codes": "amy_missions_1",
+                "img": "images/options/Missions/Amy/c.png",
+                "codes": "Options.AmyMissions.1",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b.png",
-                "codes": "amy_missions_2",
+                "img": "images/options/Missions/Amy/c_b.png",
+                "codes": "Options.AmyMissions.2",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b_a.png",
-                "codes": "amy_missions_3",
+                "img": "images/options/Missions/Amy/c_b_a.png",
+                "codes": "Options.AmyMissions.3",
                 "inherit_codes": false
             }
         ]
@@ -198,26 +208,27 @@
         "type": "progressive",
 		"allow_disabled": false,
 		"initial_stage_idx": 1,
-        "codes": "gamma_missions",
+        "codes": "Options.GammaMissions",
         "stages": [
             {
-                "img": "images/none.png",
-                "codes": "gamma_missions_0",
+                "img": "images/options/Missions/Gamma/none.png",
+				"img_mods": "@disabled",
+                "codes": "Options.GammaMissions.0",
                 "inherit_codes": false
             },
             {
-                "img": "images/c.png",
-                "codes": "gamma_missions_1",
+                "img": "images/options/Missions/Gamma/c.png",
+                "codes": "Options.GammaMissions.1",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b.png",
-                "codes": "gamma_missions_2",
+                "img": "images/options/Missions/Gamma/c_b.png",
+                "codes": "Options.GammaMissions.2",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b_a.png",
-                "codes": "gamma_missions_3",
+                "img": "images/options/Missions/Gamma/c_b_a.png",
+                "codes": "Options.GammaMissions.3",
                 "inherit_codes": false
             }
         ]
@@ -245,26 +256,27 @@
         "type": "progressive",
 		"allow_disabled": false,
 		"initial_stage_idx": 1,
-        "codes": "big_missions",
+        "codes": "Options.BigMissions",
         "stages": [
             {
-                "img": "images/none.png",
-                "codes": "big_missions_0",
+                "img": "images/options/Missions/Big/none.png",
+				"img_mods": "@disabled",
+                "codes": "Options.BigMissions_0",
                 "inherit_codes": false
             },
             {
-                "img": "images/c.png",
-                "codes": "big_missions_1",
+                "img": "images/options/Missions/Big/c.png",
+                "codes": "Options.BigMissions_1",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b.png",
-                "codes": "big_missions_2",
+                "img": "images/options/Missions/Big/c_b.png",
+                "codes": "Options.BigMissions_2",
                 "inherit_codes": false
             },
             {
-                "img": "images/c_b_a.png",
-                "codes": "big_missions_3",
+                "img": "images/options/Missions/Big/c_b_a.png",
+                "codes": "Options.BigMissions_3",
                 "inherit_codes": false
             }
         ]
